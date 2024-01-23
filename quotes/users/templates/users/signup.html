@@ -17,7 +17,12 @@
         </label>
         <span>{{ form.errors.username }}</span>
     </div>
-    <br>
+    <div>
+        <label>Email:
+            <input type="email" class="form-control" name="email">
+            {{ form.errors.email }}
+        </label>
+    </div>
     <div>
         <label> Password:
             <input type="password" class="form-control" name="password">

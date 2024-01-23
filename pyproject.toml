@@ -10,6 +10,7 @@ python = "^3.11"
 django = "^5.0"
 psycopg2 = "^2.9.9"
 scrapy = "^2.11.0"
+django-environ = "^0.11.2"
 
 
 [build-system]
